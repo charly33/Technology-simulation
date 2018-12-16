@@ -5,10 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>Technology Simulation</title>
+    <title>Scrollitelling</title>
 </head>
 <body>
-    
-    <script src="app.js"></script>
+    <div class="container">
+        <div class="background">
+            <div class="scenes scene1">
+                <div class="ground"></div>
+            </div>
+            <div id="imagesequence">
+                    <img id="myimg" src="img/1.png"><br>
+                </div>
+            <div class="scenes scene2">
+                <div class="ground"></div>
+            </div>
+            <div class="scenes scene3">
+                    <div class="ground"></div>
+                </div>
+        </div>
+    </div>
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>  
+<script src="app.js"></script>
 </body>
 </html>
