@@ -51,7 +51,7 @@ move() */
 	var controller = new ScrollMagic.Controller({vertical: false});
 
 	// build scene
-    var scene = new ScrollMagic.Scene({triggerElement: ".background", duration: 10000})
+    var scene = new ScrollMagic.Scene({triggerElement: ".background", duration: 22000})
 					.setTween(tween)
 					.addIndicators() // add indicators (requires plugin)
 					.addTo(controller);
@@ -63,11 +63,11 @@ move() */
 
  /////////////////////////////////
     
-	$(function () { // wait for document ready
+const scrollscenes = () => { 
 		// init
 		var controller = new ScrollMagic.Controller({
 			globalSceneOptions: {
-                triggerHook: 'onLeave'
+                triggerHook: 'onLeave',
             },
             vertical:false
 		});
@@ -78,10 +78,13 @@ move() */
 		// create scene for every slide
 		for (var i=0; i<slides.length; i++) {
 			new ScrollMagic.Scene({
-					triggerElement: slides[i]
+                    triggerElement: slides[i],
+                    duration: "2500"
 				})
 				.setPin(slides[i])
 				.addIndicators() // add indicators (requires plugin)
 				.addTo(controller);
 		}
-	});
+    }
+    
+scrollscenes()
