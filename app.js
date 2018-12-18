@@ -1,4 +1,5 @@
-	// define images
+
+    // define images
 	 images = [
 		"img/4.png",
 		"img/3.png",
@@ -26,7 +27,7 @@
 	var controller = new ScrollMagic.Controller({vertical: false});
 
 	// build scene
-    var scene = new ScrollMagic.Scene({triggerElement: ".background", duration: 38800})
+    var scene = new ScrollMagic.Scene({triggerElement: ".background", duration: 48200})
 					.setTween(tween)
 					.addIndicators() // add indicators (requires plugin)
 					.addTo(controller);
@@ -57,7 +58,6 @@ const scrollscenes = () =>
 		// create scene for every slide
         for (var i=0; i<slides.length; i++) 
         {
-            console.log(i)
 			new ScrollMagic.Scene(
                 {
                     triggerElement: slides[i],
@@ -72,8 +72,10 @@ const scrollscenes = () =>
  }
     
 scrollscenes()
-const illistrationAnimation = () =>
+const illustrationAnimation = () =>
 {
+/* SCENES2 */
+///IMG ANIMATION/////
     var controller = new ScrollMagic.Controller({vertical: false})
 
     var ourScene = new ScrollMagic.Scene({
@@ -81,30 +83,484 @@ const illistrationAnimation = () =>
         triggerHook:0,
         duration:'99%',
     })
-    .setClassToggle('.illustration','fade-in')
+    .setClassToggle('.illustration2','fade-in')
     .addIndicators({
         name: 'fade-in',
         colorTrigger: 'black',
     })
     .addTo(controller)
-}
-illistrationAnimation() 
-
-const textAnimation = () =>{
+/////TEXT ANIMATION////
     var textcontroller = new ScrollMagic.Controller({vertical: false})
     var textScene = new ScrollMagic.Scene({
         triggerElement : '.scene2',
         triggerHook:0,
         duration:'99%',
     })
-    .setClassToggle('.text','zoom-in')
+    .setClassToggle('.text2','zoom-in')
     .addIndicators({
         name: 'zoom-in',
         colorTrigger: 'pink',
     })
-    .addTo(textcontroller)  
+    .addTo(textcontroller) 
+//////////////////////////
+
+/* SCENES3 */
+///IMG ANIMATION/////
+var controller = new ScrollMagic.Controller({vertical: false})
+
+var ourScene = new ScrollMagic.Scene({
+    triggerElement : '.scene3',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.illustration3','fade-in')
+.addIndicators({
+    name: 'fade-in',
+    colorTrigger: 'black',
+})
+.addTo(controller)
+/////TEXT ANIMATION////
+var textcontroller = new ScrollMagic.Controller({vertical: false})
+var textScene = new ScrollMagic.Scene({
+    triggerElement : '.scene3',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.text3','zoom-in')
+.addIndicators({
+    name: 'zoom-in',
+    colorTrigger: 'pink',
+})
+.addTo(textcontroller) 
+//////////////////////////
+
+/* SCENES4 */
+///IMG ANIMATION/////
+    var controller = new ScrollMagic.Controller({vertical: false})
+
+    var ourScene = new ScrollMagic.Scene({
+        triggerElement : '.scene4',
+        triggerHook:0,
+        duration:'99%',
+    })
+    .setClassToggle('.illustration4','fade-in')
+    .addIndicators({
+        name: 'fade-in',
+        colorTrigger: 'black',
+    })
+    .addTo(controller)
+/////TEXT ANIMATION////
+    var textcontroller = new ScrollMagic.Controller({vertical: false})
+    var textScene = new ScrollMagic.Scene({
+        triggerElement : '.scene4',
+        triggerHook:0,
+        duration:'99%',
+    })
+    .setClassToggle('.text4','zoom-in')
+    .addIndicators({
+        name: 'zoom-in',
+        colorTrigger: 'pink',
+    })
+    .addTo(textcontroller) 
+//////////////////////////
+
+/* SCENES5 */
+///IMG ANIMATION/////
+var controller = new ScrollMagic.Controller({vertical: false})
+
+var ourScene = new ScrollMagic.Scene({
+    triggerElement : '.scene5',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.illustration5','fade-in')
+.addIndicators({
+    name: 'fade-in',
+    colorTrigger: 'black',
+})
+.addTo(controller)
+/////TEXT ANIMATION////
+var textcontroller = new ScrollMagic.Controller({vertical: false})
+var textScene = new ScrollMagic.Scene({
+    triggerElement : '.scene5',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.text5','zoom-in')
+.addIndicators({
+    name: 'zoom-in',
+    colorTrigger: 'pink',
+})
+.addTo(textcontroller) 
+//////////////////////////
+
+/* SCENES6 */
+///IMG ANIMATION/////
+var controller = new ScrollMagic.Controller({vertical: false})
+
+var ourScene = new ScrollMagic.Scene({
+    triggerElement : '.scene6',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.illustration6','fade-in')
+.addIndicators({
+    name: 'fade-in',
+    colorTrigger: 'black',
+})
+.addTo(controller)
+/////TEXT ANIMATION////
+var textcontroller = new ScrollMagic.Controller({vertical: false})
+var textScene = new ScrollMagic.Scene({
+    triggerElement : '.scene6',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.text6','zoom-in')
+.addIndicators({
+    name: 'zoom-in',
+    colorTrigger: 'pink',
+})
+.addTo(textcontroller) 
+//////////////////////////
+
+/* SCENES7 */
+///IMG ANIMATION/////
+var controller = new ScrollMagic.Controller({vertical: false})
+
+var ourScene = new ScrollMagic.Scene({
+    triggerElement : '.scene7',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.illustration7','fade-in')
+.addIndicators({
+    name: 'fade-in',
+    colorTrigger: 'black',
+})
+.addTo(controller)
+/////TEXT ANIMATION////
+var textcontroller = new ScrollMagic.Controller({vertical: false})
+var textScene = new ScrollMagic.Scene({
+    triggerElement : '.scene7',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.text7','zoom-in')
+.addIndicators({
+    name: 'zoom-in',
+    colorTrigger: 'pink',
+})
+.addTo(textcontroller) 
+//////////////////////////
+
+/* SCENES8 */
+///IMG ANIMATION/////
+var controller = new ScrollMagic.Controller({vertical: false})
+
+var ourScene = new ScrollMagic.Scene({
+    triggerElement : '.scene8',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.illustration8','fade-in')
+.addIndicators({
+    name: 'fade-in',
+    colorTrigger: 'black',
+})
+.addTo(controller)
+/////TEXT ANIMATION////
+var textcontroller = new ScrollMagic.Controller({vertical: false})
+var textScene = new ScrollMagic.Scene({
+    triggerElement : '.scene8',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.text8','zoom-in')
+.addIndicators({
+    name: 'zoom-in',
+    colorTrigger: 'pink',
+})
+.addTo(textcontroller) 
+//////////////////////////
+
+/* SCENES9 */
+///IMG ANIMATION/////
+var controller = new ScrollMagic.Controller({vertical: false})
+
+var ourScene = new ScrollMagic.Scene({
+    triggerElement : '.scene9',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.illustration9','fade-in')
+.addIndicators({
+    name: 'fade-in',
+    colorTrigger: 'black',
+})
+.addTo(controller)
+/////TEXT ANIMATION////
+var textcontroller = new ScrollMagic.Controller({vertical: false})
+var textScene = new ScrollMagic.Scene({
+    triggerElement : '.scene9',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.text9','zoom-in')
+.addIndicators({
+    name: 'zoom-in',
+    colorTrigger: 'pink',
+})
+.addTo(textcontroller) 
+//////////////////////////
+
+/* SCENES10 */
+///IMG ANIMATION/////
+var controller = new ScrollMagic.Controller({vertical: false})
+
+var ourScene = new ScrollMagic.Scene({
+    triggerElement : '.scene10',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.illustration10','fade-in')
+.addIndicators({
+    name: 'fade-in',
+    colorTrigger: 'black',
+})
+.addTo(controller)
+/////TEXT ANIMATION////
+var textcontroller = new ScrollMagic.Controller({vertical: false})
+var textScene = new ScrollMagic.Scene({
+    triggerElement : '.scene10',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.text10','zoom-in')
+.addIndicators({
+    name: 'zoom-in',
+    colorTrigger: 'pink',
+})
+.addTo(textcontroller) 
+//////////////////////////
+
+/* SCENES11 */
+///IMG ANIMATION/////
+var controller = new ScrollMagic.Controller({vertical: false})
+
+var ourScene = new ScrollMagic.Scene({
+    triggerElement : '.scene11',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.illustration11','fade-in')
+.addIndicators({
+    name: 'fade-in',
+    colorTrigger: 'black',
+})
+.addTo(controller)
+/////TEXT ANIMATION////
+var textcontroller = new ScrollMagic.Controller({vertical: false})
+var textScene = new ScrollMagic.Scene({
+    triggerElement : '.scene11',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.text11','zoom-in')
+.addIndicators({
+    name: 'zoom-in',
+    colorTrigger: 'pink',
+})
+.addTo(textcontroller) 
+//////////////////////////
+
+/* SCENES12 */
+///IMG ANIMATION/////
+var controller = new ScrollMagic.Controller({vertical: false})
+
+var ourScene = new ScrollMagic.Scene({
+    triggerElement : '.scene12',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.illustration12','fade-in')
+.addIndicators({
+    name: 'fade-in',
+    colorTrigger: 'black',
+})
+.addTo(controller)
+/////TEXT ANIMATION////
+var textcontroller = new ScrollMagic.Controller({vertical: false})
+var textScene = new ScrollMagic.Scene({
+    triggerElement : '.scene12',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.text12','zoom-in')
+.addIndicators({
+    name: 'zoom-in',
+    colorTrigger: 'pink',
+})
+.addTo(textcontroller) 
+//////////////////////////
+
+/* SCENES13 */
+///IMG ANIMATION/////
+var controller = new ScrollMagic.Controller({vertical: false})
+
+var ourScene = new ScrollMagic.Scene({
+    triggerElement : '.scene13',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.illustration13','fade-in')
+.addIndicators({
+    name: 'fade-in',
+    colorTrigger: 'black',
+})
+.addTo(controller)
+/////TEXT ANIMATION////
+var textcontroller = new ScrollMagic.Controller({vertical: false})
+var textScene = new ScrollMagic.Scene({
+    triggerElement : '.scene13',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.text13','zoom-in')
+.addIndicators({
+    name: 'zoom-in',
+    colorTrigger: 'pink',
+})
+.addTo(textcontroller) 
+//////////////////////////
+
+/* SCENES14 */
+///IMG ANIMATION/////
+var controller = new ScrollMagic.Controller({vertical: false})
+
+var ourScene = new ScrollMagic.Scene({
+    triggerElement : '.scene14',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.illustration14','fade-in')
+.addIndicators({
+    name: 'fade-in',
+    colorTrigger: 'black',
+})
+.addTo(controller)
+/////TEXT ANIMATION////
+var textcontroller = new ScrollMagic.Controller({vertical: false})
+var textScene = new ScrollMagic.Scene({
+    triggerElement : '.scene14',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.text14','zoom-in')
+.addIndicators({
+    name: 'zoom-in',
+    colorTrigger: 'pink',
+})
+.addTo(textcontroller) 
+//////////////////////////
+
+/* SCENES15 */
+///IMG ANIMATION/////
+var controller = new ScrollMagic.Controller({vertical: false})
+
+var ourScene = new ScrollMagic.Scene({
+    triggerElement : '.scene15',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.illustration15','fade-in')
+.addIndicators({
+    name: 'fade-in',
+    colorTrigger: 'black',
+})
+.addTo(controller)
+/////TEXT ANIMATION////
+var textcontroller = new ScrollMagic.Controller({vertical: false})
+var textScene = new ScrollMagic.Scene({
+    triggerElement : '.scene15',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.text15','zoom-in')
+.addIndicators({
+    name: 'zoom-in',
+    colorTrigger: 'pink',
+})
+.addTo(textcontroller) 
+//////////////////////////
+
+/* SCENES16 */
+///IMG ANIMATION/////
+var controller = new ScrollMagic.Controller({vertical: false})
+
+var ourScene = new ScrollMagic.Scene({
+    triggerElement : '.scene16',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.illustration16','fade-in')
+.addIndicators({
+    name: 'fade-in',
+    colorTrigger: 'black',
+})
+.addTo(controller)
+/////TEXT ANIMATION////
+var textcontroller = new ScrollMagic.Controller({vertical: false})
+var textScene = new ScrollMagic.Scene({
+    triggerElement : '.scene16',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.text16','zoom-in')
+.addIndicators({
+    name: 'zoom-in',
+    colorTrigger: 'pink',
+})
+.addTo(textcontroller) 
+//////////////////////////
+
+/* SCENES17 */
+///IMG ANIMATION/////
+var controller = new ScrollMagic.Controller({vertical: false})
+
+var ourScene = new ScrollMagic.Scene({
+    triggerElement : '.scene17',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.illustration17','fade-in')
+.addIndicators({
+    name: 'fade-in',
+    colorTrigger: 'black',
+})
+.addTo(controller)
+/////TEXT ANIMATION////
+var textcontroller = new ScrollMagic.Controller({vertical: false})
+var textScene = new ScrollMagic.Scene({
+    triggerElement : '.scene17',
+    triggerHook:0,
+    duration:'99%',
+})
+.setClassToggle('.text17','zoom-in')
+.addIndicators({
+    name: 'zoom-in',
+    colorTrigger: 'pink',
+})
+.addTo(textcontroller) 
+//////////////////////////
+
+  
+
 }
-textAnimation()
+illustrationAnimation() 
+
+
+
 
 
 
