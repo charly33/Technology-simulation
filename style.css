@@ -16,13 +16,14 @@ body{
 }
 
 .ground{
-    background: url(img/sol2.png);
+    background:lightgrey;
     background-size: 100%;
     position: fixed;
     width: 100%;
     height: 8vh;
     left: 0;
     bottom: 0;
+    z-index: 35;
 }
 #myimg{
     position: fixed;
@@ -36,9 +37,10 @@ body{
     height: 92vh;
 }
 .scene1{
-    background: url(img/fond1.png);
+    background: url(img/intro.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    
 }
 .scene2{
      background: url(img/macintosh-fond2.png);
@@ -110,6 +112,11 @@ body{
 }
 .scene16{
     background: url(img/voitureautonome-fond17.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.scene17{
+    background: url(img/fin.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -228,10 +235,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 0;
   }
   
   .li {
-    transition: all 200ms ease-in;
+    transition: all 500ms ease-in;
   }
   
   .timestamp {
@@ -244,12 +252,12 @@ body{
   }
   
   .status {
-    padding: 0px 40px;
+    padding: 0px 23px;
     display: flex;
     justify-content: center;
     border-top: 2px solid #D6DCE0;
     position: relative;
-    transition: all 200ms ease-in;
+    transition: all 500ms ease-in;
   }
   .status h4 {
     font-weight: 600;
@@ -260,7 +268,6 @@ body{
     height: 25px;
     background-color: white;
     border-radius: 25px;
-    border: 1px solid #ddd;
     position: absolute;
     top: -15px;
     left: 42%;
@@ -268,35 +275,15 @@ body{
   }
   
   .li.complete .status {
-    border-top: 2px solid black;
+    border-top: 4px solid #009FE3;
   }
   .li.complete .status:before {
-    background-color: black;
-    border: none;
+    background-color: white;
+    border: 2px solid #009FE3;
     transition: all 200ms ease-in;
   }
   .li.complete .status h4 {
     color: black;
-  }
-  
-  button {
-    position: absolute;
-    width: 100px;
-    min-width: 100px;
-    padding: 20px;
-    margin: 20px;
-    font-family: "Titillium Web", sans serif;
-    border: none;
-    color: white;
-    font-size: 16px;
-    text-align: center;
-  }
-  
-  #toggleButton {
-    position: absolute;
-    left: 50px;
-    top: 20px;
-    background-color: #75C7F6;
   }
   
 

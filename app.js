@@ -29,7 +29,6 @@
 	// build scene
     var scene = new ScrollMagic.Scene({triggerElement: ".background", duration: 48200})
                     .setTween(tween)
-					 // add indicators (requires plugin)
 					.addTo(controller);
 
 	// handle form change
@@ -327,10 +326,6 @@ var ourScene = new ScrollMagic.Scene({
     duration:'99%',
 })
 .setClassToggle('.illustration13','fade-in')
-.addIndicators({
-    name: 'fade-in',
-    colorTrigger: 'black',
-})
 .addTo(controller)
 /////TEXT ANIMATION////
 var textcontroller = new ScrollMagic.Controller({vertical: false})
@@ -353,10 +348,6 @@ var ourScene = new ScrollMagic.Scene({
     duration:'99%',
 })
 .setClassToggle('.illustration14','fade-in')
-.addIndicators({
-    name: 'fade-in',
-    colorTrigger: 'black',
-})
 .addTo(controller)
 /////TEXT ANIMATION////
 var textcontroller = new ScrollMagic.Controller({vertical: false})
@@ -423,15 +414,18 @@ const li = document.querySelectorAll(".li")
 window.addEventListener('scroll',_event => {
     scrollPos= window.pageXOffset
     console.log(scrollPos)
-
+    for(i=0; i<16 ; i++){
+        if(scrollPos>2225*i)
+        {
+            li[i].classList.add('complete')
+        }
+        else{
+            li[i].classList.remove('complete')
+        }
+    }  
 })
 
-const timelines = () => 
-{
-    
 
-    
-}
 
 
 
