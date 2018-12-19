@@ -51,6 +51,14 @@ body{
     bottom: 0;
     z-index: 35;
 }
+.banner{
+    background: url(img/banderolleprésentation.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 37%;
+}
 #myimg{
     position: fixed;
     bottom: 8%;
@@ -66,85 +74,103 @@ body{
     background: url(img/intro.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: bottom;
     
+
 }
 .scene2{
      background: url(img/macintosh-fond2.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: bottom;
 }
 .scene3{
     background: url(img/gps-fond3.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: bottom;
 }
 .scene4{
     background: url(img/www-fond4.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: bottom;
 }
 .scene5{
     background: url(img/appareilphoto-telephone-fond5.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: bottom;
 }
 .scene6{
     background: url(img/e-commerce-fond6.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: bottom;
 }.scene7{
     background: url(img/ia-fond7.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: bottom;
 }
 .scene8{
      background: url(img/baladeurmp3.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: bottom;
 }
 .scene9{
     background: url(img/googlee.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: bottom;
 }.scene10{
     background: url(img/wifi-fond9.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: bottom;
 }
 .scene11{
      background: url(img/4g-tinder-fond15.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: bottom;
 }
 .scene12{
     background: url(img/iphone-app-fond13.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: bottom;
 }
 .scene13{
      background: url(img/insta-ipad-fond14.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: bottom;
 }
 .scene14{
     background: url(img/4g-tinder-fond15.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: bottom;
 }
 .scene15{
     background: url(img/robothumanoide-fond16.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: bottom;
 }
 .scene16{
     background: url(img/voitureautonome-fond17.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: bottom;
 }
 .scene17{
     background: url(img/fin.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: bottom;
 }
 #illustration{
     position: absolute; 
