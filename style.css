@@ -132,10 +132,20 @@ body{
 .text2{opacity: 0;transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);transition: all 2s ease-out;}
 .text2.zoom-in{ opacity: 1; transform: scale3d(1, 1, 1) translate3d(10px, 0, 0)}
 
- p{
+h2{
     color: white;
-    text-transform: uppercase;
-    font-weight: bold;
+    font-size: 45px;
+    font-family: Bahnschrift;
+}
+p{
+    color: white;
+    font-family: Bahnschrift;
+    font-size: 25px;
+}
+i{
+    color: white;
+    font-size: 20px;
+    font-family: Bahnschrift;
 }
 /* SCENES2 */
 .illustration2{transform: translateX(50px); transition: all 2s ease-out; opacity: 0;    width: 30vw;top: 10%;right: 15%;;}
