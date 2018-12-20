@@ -513,7 +513,7 @@ var textScene = new ScrollMagic.Scene({
 illustrationAnimation() 
 
 
-
+const homme = document.querySelector('#myimg')
 const li = document.querySelectorAll(".li")
 
 window.addEventListener('scroll',_event => {
@@ -523,6 +523,7 @@ window.addEventListener('scroll',_event => {
         if(scrollPos>2270*i)
         {
             li[i].classList.add('complete')
+
         }
         else{
             li[i].classList.remove('complete')
