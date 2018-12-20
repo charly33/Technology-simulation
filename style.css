@@ -8,7 +8,8 @@ body{
 a{
    text-decoration: none ;
    text-decoration-color: none;
-
+   text-transform: none;
+   color: white;
 }
 a:active{
     color: #009FE3;
