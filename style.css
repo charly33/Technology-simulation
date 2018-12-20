@@ -41,6 +41,9 @@ a:active{
     text-align: center;
     top: 10%;
     margin: 0;
+     color: white;
+    font-size: 200%;
+
 }
 .introtext{
     position: absolute;
@@ -374,15 +377,15 @@ i{
   }
   
   .li.complete .status {
-    border-top: 4px solid black;
+    border-top: 4px solid #009FE3;
   }
   .li.complete .status:before {
-    background-color:black;
-    border: 2px solid black;
+    background-color:white;
+    border: 2px solid #009FE3;
     transition: all 200ms ease-in;
   }
   .li.complete .status h4 {
-    color:black;
+    color:#009FE3;
   }
 
   .logo{
